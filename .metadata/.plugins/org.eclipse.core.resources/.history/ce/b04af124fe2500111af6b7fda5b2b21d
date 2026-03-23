@@ -1,0 +1,2 @@
+spring.application.name=SpringDay2
+server.port=9090

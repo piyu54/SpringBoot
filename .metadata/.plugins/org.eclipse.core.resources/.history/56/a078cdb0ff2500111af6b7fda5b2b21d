@@ -1,0 +1,31 @@
+package com.day2;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyController {
+
+	@GetMapping("/java")
+	public String firstApi()
+	{
+		return "java is an prog lang";
+	}
+	
+	@PostMapping("/html")
+	public String secondApi()
+	{
+		return "this is an second API";
+	}
+	
+	public String thirdApi()
+	{
+		return "this is an third API";
+	}
+	
+	public String fourthApi()
+	{
+		return "this is an fourth API";
+	}
+}

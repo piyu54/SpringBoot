@@ -1,0 +1,12 @@
+package com.day2;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyController {
+
+	public String firstApi()
+	{
+		return "this is an first API";
+	}
+}
